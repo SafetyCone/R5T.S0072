@@ -7,7 +7,7 @@ namespace R5T.S0072
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            SolutionSpecificationScripts.Instance.Show_WebBlazorClientAndServerSolutionSpecification();
         }
     }
 }

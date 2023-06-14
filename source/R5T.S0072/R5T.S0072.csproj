@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Version>1.0.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <NoWarn>1591</NoWarn>
+    <NoWarn>1587;1591</NoWarn>
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
     <Copyright>Copyright (c) Rivet 2023</Copyright>
@@ -13,4 +13,13 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/SafetyCone/R5T.S0072.git</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.F0134\source\R5T.F0134\R5T.F0134.csproj" />
+    <ProjectReference Include="..\..\..\R5T.L0044\source\R5T.L0044\R5T.L0044.csproj" />
+    <ProjectReference Include="..\..\..\R5T.L0045\source\R5T.L0045\R5T.L0045.csproj" />
+    <ProjectReference Include="..\..\..\R5T.L0046\source\R5T.L0046\R5T.L0046.csproj" />
+    <ProjectReference Include="..\..\..\R5T.O0007\source\R5T.O0007\R5T.O0007.csproj" />
+    <ProjectReference Include="..\..\..\R5T.O0015\source\R5T.O0015\R5T.O0015.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Z0046\source\R5T.Z0046\R5T.Z0046.csproj" />
+  </ItemGroup>
 </Project>
